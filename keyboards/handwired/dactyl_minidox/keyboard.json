@@ -64,12 +64,14 @@
         "cols": ["C6", "D7", "E6", "B4", "B5"],
         "rows": ["B1", "B3", "B2", "B6"]
     },
-    "diode_direction": "ROW2COL",
+    "diode_direction": "COL2ROW",
     "split": {
         "enabled": true,
         "serial": {
             "pin": "D0"
-        }
+        },
+        "usb_detect" : {"enabled": true}
+
     },
     "development_board": "promicro",
     "community_layouts": ["split_3x5_3"],
